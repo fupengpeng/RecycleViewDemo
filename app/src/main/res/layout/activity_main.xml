@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/title_activity"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_aty_main_one"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:background="#aaff00"
+                android:text="RecycleView"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btn_aty_main_two"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="#ffff00"
+                android:text="基础布局"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btn_aty_main_three"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:text="下拉刷新上拉加载"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btn_aty_main_four"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="#ff00ff"
+                android:text="单选框、复选框、计时器、状态框等"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btn_aty_main_five"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+
+                android:background="#ffaaaa"
+                android:text="自动输入框"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btn_aty_main_six"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="#ccffff"
+                android:text="分组listview"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btn_aty_main_seven"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="#ffcccc"
+                android:text="下拉选择框"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btn_aty_main_eight"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="#00ffff"
+                android:text="recyclerview"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btn_aty_main_nine"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="#FF6A6A"
+                android:text="日期时间选择"
+                android:textColor="#7CFC00" />
+
+            <Button
+                android:id="@+id/btn_aty_main_ten"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="#BBFFFF"
+                android:text="WheelView"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btn_aty_main_eleven"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="#00F5FF"
+                android:text="NumberPicker"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btn_aty_main_twelve"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="#7FFFD4"
+                android:text="标题栏设置"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btn_aty_main_thirteen"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="#C1FFC1"
+                android:text="状态栏管理"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btn_aty_main_fourteen"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="#54FF9F"
+                android:text="Progressbar"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btn_aty_main_fifteen"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="#00FF7F"
+                android:text="Intent测试"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btn_aty_main_sixteen"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="#00FF00"
+                android:text="two"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btn_aty_main_seventeen"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="#C0FF3E"
+                android:text="two"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btn_aty_main_eighteen"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="#FFF68F"
+                android:text="two"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btn_aty_main_nineteen"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="#FFFFE0"
+                android:text="two"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btn_aty_main_twenty"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="#FFFF00"
+                android:text="two"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btn_aty_main_twenty_one"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <Button
+                android:id="@+id/btn_aty_main_twenty_two"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <Button
+                android:id="@+id/btn_aty_main_twenty_three"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <Button
+                android:id="@+id/btn_aty_main_twenty_four"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <Button
+                android:id="@+id/btn_aty_main_twenty_five"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <Button
+                android:id="@+id/btn_aty_main_twenty_six"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <Button
+                android:id="@+id/btn_aty_main_twenty_seven"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <Button
+                android:id="@+id/btn_aty_main_twenty_eight"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <Button
+                android:id="@+id/btn_aty_main_twenty_nine"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
