@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.fpp.recycleviewdemo.listview.XListViewActivity;
 import com.fpp.recycleviewdemo.recycleview.RecyclerViewActivity;
 import com.fpp.recycleviewdemo.ui.rvone.RVOneActivity;
 import com.fpp.recycleviewdemo.ui.rvtwo.RVTwoActivity;
@@ -142,6 +143,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(mIntent);
                 break;
             case R.id.btn_aty_main_four:
+                mIntent = new Intent(this, XListViewActivity.class);
+                startActivity(mIntent);
                 break;
             case R.id.btn_aty_main_five:
                 break;

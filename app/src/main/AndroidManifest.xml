@@ -20,10 +20,10 @@
         <activity android:name=".recycleview.RecyclerViewActivity" />
         <activity android:name=".recycleview.LVOrRCVActivity" />
         <activity android:name=".recycleview.RcyclerViewHorizontalActivity" />
-        <activity android:name=".ui.rvone.RVOneActivity"/>
-        <activity android:name=".ui.rvtwo.RVTwoActivity"/>
-
-
+        <activity android:name=".ui.rvone.RVOneActivity" />
+        <activity android:name=".ui.rvtwo.RVTwoActivity" />
+        <activity android:name=".listview.XListViewActivity" />
+        <activity android:name=".listview.ClassifyActivity"></activity>
     </application>
 
 </manifest>

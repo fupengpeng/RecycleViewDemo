@@ -51,7 +51,7 @@
                 android:layout_height="45dp"
                 android:layout_margin="5dp"
                 android:background="#ff00ff"
-                android:text="单选框、复选框、计时器、状态框等"
+                android:text="XListView"
                 android:textColor="#000000" />
 
             <Button
